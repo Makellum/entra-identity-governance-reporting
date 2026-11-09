@@ -1,0 +1,5 @@
+DisplayName,UserPrincipalName,AccountStatus,MFAStatus,PrivilegedRole,PIMEligible,ReviewResult
+TEST USER 001,test.user001@example.com,Enabled,Registered,None,FALSE,OK
+TEST PRIVILEGED ADMIN 001,test.admin001@example.com,Enabled,Registered,Global Reader,TRUE,Privileged Access Review
+TEST DISABLED USER 001,test.disabled001@example.com,Disabled,N/A,None,FALSE,Lifecycle Review
+TEST USER 002,test.user002@example.com,Enabled,Not Registered,None,FALSE,MFA Review
